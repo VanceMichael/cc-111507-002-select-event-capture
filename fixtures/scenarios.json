@@ -1,0 +1,54 @@
+[
+  {
+    "id": "standard",
+    "entry": "query.events",
+    "version": "source-v1",
+    "resources": [
+      "query.events",
+      "broken.events",
+      "unfinished.events",
+      "truncated.events"
+    ],
+    "behavior": "standard",
+    "description": "运单对象查询：standard"
+  },
+  {
+    "id": "bad-crc",
+    "entry": "broken.events",
+    "version": "source-v1",
+    "resources": [
+      "query.events",
+      "broken.events",
+      "unfinished.events",
+      "truncated.events"
+    ],
+    "behavior": "bad-crc",
+    "description": "运单对象查询：bad-crc"
+  },
+  {
+    "id": "no-end",
+    "entry": "unfinished.events",
+    "version": "source-v1",
+    "resources": [
+      "query.events",
+      "broken.events",
+      "unfinished.events",
+      "truncated.events"
+    ],
+    "behavior": "no-end",
+    "description": "运单对象查询：no-end"
+  },
+  {
+    "id": "truncated",
+    "entry": "truncated.events",
+    "version": "source-v1",
+    "resources": [
+      "query.events",
+      "broken.events",
+      "unfinished.events",
+      "truncated.events"
+    ],
+    "behavior": "truncated",
+    "description": "运单对象查询：truncated"
+  }
+]
